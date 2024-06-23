@@ -1,0 +1,16 @@
+business
+entertainment
+general
+health
+science
+sports
+technology
+
+<Route exact path='business' element={<Contentbox size="15" catagory="business"></Contentbox>}></Route>
+<Route exact path='entertainment' element={<Contentbox size="15" catagory="entertainment"></Contentbox>}></Route>
+<Route exact path='health' element={<Contentbox size="15" catagory="health"></Contentbox>}></Route>
+<Route exact path='science' element={<Contentbox size="15" catagory="science"></Contentbox>}></Route>
+<Route exact path='sports' element={<Contentbox size="15" catagory="sports"></Contentbox>}></Route>
+<Route exact path='technology' element={<Contentbox size="15" catagory="technology"></Contentbox>}></Route>
+
+<Route exact path='/' element={<Contentbox size="15" catagory="general"></Contentbox>}></Route>
